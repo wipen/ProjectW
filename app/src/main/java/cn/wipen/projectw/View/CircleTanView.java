@@ -45,7 +45,7 @@ public class CircleTanView extends View {
         mPathMeasure.setPath(mPath, true);
         mLenth = mPathMeasure.getLength();
 
-        mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.arrow_right);
+        mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_arrow_right);
         matrix = new Matrix();
 
         initAnimator();
